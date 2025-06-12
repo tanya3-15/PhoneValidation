@@ -1,0 +1,16 @@
+PODS:
+  - TanyaPhonevalidation (1.0.0)
+
+DEPENDENCIES:
+  - TanyaPhonevalidation (from `../PhoneValidation`)
+
+EXTERNAL SOURCES:
+  TanyaPhonevalidation:
+    :path: "../PhoneValidation"
+
+SPEC CHECKSUMS:
+  TanyaPhonevalidation: 00d812ca8bf42f733c84d2246cb95801a2f3ad30
+
+PODFILE CHECKSUM: 689fd91f87fff5feff914da179184bc9bc6de428
+
+COCOAPODS: 1.16.2

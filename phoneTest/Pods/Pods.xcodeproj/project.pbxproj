@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0571067B08FBBDC26913000A5367DC41 /* TanyaPhonevalidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B089E72D7ED1E9D35964631529F74227 /* TanyaPhonevalidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1665DE6199E78490C174731AAB8EFCC8 /* Pods-phoneTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A30972C8AF1F5CEDB611AB6008605 /* Pods-phoneTest-dummy.m */; };
+		8F7A9E6B1A51774CB8C1D2D0036ADDC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		95F0809DAF68B505050370A5E19E35CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		BB12A3DDB25036CEBC89BE940F0DE54C /* TanyaPhonevalidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C736549C24BE23E91974ADE897876F /* TanyaPhonevalidation-dummy.m */; };
+		E656BFC9F9C8AF946C6AFA4CB5C928D9 /* Pods-phoneTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E92CC5A0B055F46476FF80C83772C38 /* Pods-phoneTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E5B8038BA26A8565FFF9133DA2AF93 /* phoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F61CA497CDFA2A1CC44BBD075C6F5 /* phoneValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1D5CBC3197025ED7048B6661A0927C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DEFF2F2F2299AA40916F7496F43C94;
+			remoteInfo = TanyaPhonevalidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355F8D0C07996E9C2AB22A9FD43A7A30 /* TanyaPhonevalidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TanyaPhonevalidation.debug.xcconfig; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EEDDA1F6EFAEC51E80BCF995C7227F3 /* Pods-phoneTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-phoneTest-frameworks.sh"; sourceTree = "<group>"; };
+		5F02D9E144220467947F6CEB99CC78E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C4A30972C8AF1F5CEDB611AB6008605 /* Pods-phoneTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-phoneTest-dummy.m"; sourceTree = "<group>"; };
+		6E92CC5A0B055F46476FF80C83772C38 /* Pods-phoneTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-phoneTest-umbrella.h"; sourceTree = "<group>"; };
+		709F4F23727243D0A64EAE7D6384CD59 /* Pods-phoneTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-phoneTest.debug.xcconfig"; sourceTree = "<group>"; };
+		70F3379E2DCD0696579958CFE595C3E8 /* TanyaPhonevalidation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TanyaPhonevalidation; path = TanyaPhonevalidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF16BF4C89E803D67CBCAAFD9035FEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A1C22C9DEE1D3D4B60B69FC62860CEC9 /* Pods-phoneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-phoneTest.release.xcconfig"; sourceTree = "<group>"; };
+		A92F61CA497CDFA2A1CC44BBD075C6F5 /* phoneValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = phoneValidator.swift; path = TanyaPhoneValidation/phoneValidator.swift; sourceTree = "<group>"; };
+		ABBEBFCEDC491047814210AA87553B43 /* TanyaPhonevalidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TanyaPhonevalidation.release.xcconfig; sourceTree = "<group>"; };
+		B089E72D7ED1E9D35964631529F74227 /* TanyaPhonevalidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TanyaPhonevalidation-umbrella.h"; sourceTree = "<group>"; };
+		C74EEB9CF49ADA4630303893869FB1D5 /* TanyaPhonevalidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TanyaPhonevalidation-prefix.pch"; sourceTree = "<group>"; };
+		C9C736549C24BE23E91974ADE897876F /* TanyaPhonevalidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TanyaPhonevalidation-dummy.m"; sourceTree = "<group>"; };
+		CA6E5D8AD8CAFADD8A78F92D76285DF6 /* Pods-phoneTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-phoneTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBDFAB309A65A011FAA5E8A7DEB22C16 /* Pods-phoneTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-phoneTest-Info.plist"; sourceTree = "<group>"; };
+		D70D28B73F9DEED1249B8F6C083E4846 /* Pods-phoneTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-phoneTest"; path = Pods_phoneTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC6FB7CE9D2CDF635EFED0571E1F71 /* Pods-phoneTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-phoneTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E475CDAEFAAED7AD596CB22D55281D28 /* TanyaPhonevalidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TanyaPhonevalidation.modulemap; sourceTree = "<group>"; };
+		E87615A36219C632A572D8AFFC06FF01 /* TanyaPhonevalidation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TanyaPhonevalidation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBED09DBB2E20B5A03F52973DB4167DC /* Pods-phoneTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-phoneTest.modulemap"; sourceTree = "<group>"; };
+		F94FC8287FF8F6C385736CDE4A69F362 /* TanyaPhonevalidation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TanyaPhonevalidation-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CE09BD8F48EA4A96D31105F469DAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7A9E6B1A51774CB8C1D2D0036ADDC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9D5DA99981E30F28A59B7EDFA04CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0809DAF68B505050370A5E19E35CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EB6D484303890C86B3F027C9BDE4E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E475CDAEFAAED7AD596CB22D55281D28 /* TanyaPhonevalidation.modulemap */,
+				C9C736549C24BE23E91974ADE897876F /* TanyaPhonevalidation-dummy.m */,
+				F94FC8287FF8F6C385736CDE4A69F362 /* TanyaPhonevalidation-Info.plist */,
+				C74EEB9CF49ADA4630303893869FB1D5 /* TanyaPhonevalidation-prefix.pch */,
+				B089E72D7ED1E9D35964631529F74227 /* TanyaPhonevalidation-umbrella.h */,
+				355F8D0C07996E9C2AB22A9FD43A7A30 /* TanyaPhonevalidation.debug.xcconfig */,
+				ABBEBFCEDC491047814210AA87553B43 /* TanyaPhonevalidation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../phoneTest/Pods/Target Support Files/TanyaPhonevalidation";
+			sourceTree = "<group>";
+		};
+		0A19B1B39C67FE95E38602203AB37DFF /* Pods-phoneTest */ = {
+			isa = PBXGroup;
+			children = (
+				EBED09DBB2E20B5A03F52973DB4167DC /* Pods-phoneTest.modulemap */,
+				E1CC6FB7CE9D2CDF635EFED0571E1F71 /* Pods-phoneTest-acknowledgements.markdown */,
+				CA6E5D8AD8CAFADD8A78F92D76285DF6 /* Pods-phoneTest-acknowledgements.plist */,
+				6C4A30972C8AF1F5CEDB611AB6008605 /* Pods-phoneTest-dummy.m */,
+				5EEDDA1F6EFAEC51E80BCF995C7227F3 /* Pods-phoneTest-frameworks.sh */,
+				CBDFAB309A65A011FAA5E8A7DEB22C16 /* Pods-phoneTest-Info.plist */,
+				6E92CC5A0B055F46476FF80C83772C38 /* Pods-phoneTest-umbrella.h */,
+				709F4F23727243D0A64EAE7D6384CD59 /* Pods-phoneTest.debug.xcconfig */,
+				A1C22C9DEE1D3D4B60B69FC62860CEC9 /* Pods-phoneTest.release.xcconfig */,
+			);
+			name = "Pods-phoneTest";
+			path = "Target Support Files/Pods-phoneTest";
+			sourceTree = "<group>";
+		};
+		2530D31205A00F50F03D182AF5165D34 /* TanyaPhonevalidation */ = {
+			isa = PBXGroup;
+			children = (
+				A92F61CA497CDFA2A1CC44BBD075C6F5 /* phoneValidator.swift */,
+				CC2E447C83C9DB918C2E655293B9A0F5 /* Pod */,
+				05EB6D484303890C86B3F027C9BDE4E5 /* Support Files */,
+			);
+			name = TanyaPhonevalidation;
+			path = ../../PhoneValidation;
+			sourceTree = "<group>";
+		};
+		6ABE83F4EFFC05852039E0BF0EC54FD1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2530D31205A00F50F03D182AF5165D34 /* TanyaPhonevalidation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CC2E447C83C9DB918C2E655293B9A0F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9DF16BF4C89E803D67CBCAAFD9035FEE /* LICENSE */,
+				5F02D9E144220467947F6CEB99CC78E8 /* README.md */,
+				E87615A36219C632A572D8AFFC06FF01 /* TanyaPhonevalidation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6ABE83F4EFFC05852039E0BF0EC54FD1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5B15CA3A8E1F8D92BCC301E6F561F5A /* Products */,
+				DB99C740EC4DB03BC4B25FF7AAA6A66F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B15CA3A8E1F8D92BCC301E6F561F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70D28B73F9DEED1249B8F6C083E4846 /* Pods-phoneTest */,
+				70F3379E2DCD0696579958CFE595C3E8 /* TanyaPhonevalidation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB99C740EC4DB03BC4B25FF7AAA6A66F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A19B1B39C67FE95E38602203AB37DFF /* Pods-phoneTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67DFAF613094985A125903CAC7B0DB6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571067B08FBBDC26913000A5367DC41 /* TanyaPhonevalidation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA1A8278BEFE4D4133DE44D02753141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E656BFC9F9C8AF946C6AFA4CB5C928D9 /* Pods-phoneTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4DEFF2F2F2299AA40916F7496F43C94 /* TanyaPhonevalidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4158F064B7E98972AE680F241EB4A289 /* Build configuration list for PBXNativeTarget "TanyaPhonevalidation" */;
+			buildPhases = (
+				67DFAF613094985A125903CAC7B0DB6E /* Headers */,
+				E2080E0BA0A6011B77F69E1F412A3EE2 /* Sources */,
+				06CE09BD8F48EA4A96D31105F469DAD0 /* Frameworks */,
+				815E057FFED7C98596777B3C6450FE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanyaPhonevalidation;
+			productName = TanyaPhonevalidation;
+			productReference = 70F3379E2DCD0696579958CFE595C3E8 /* TanyaPhonevalidation */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB7CF24A4EB196EDB76280147435B322 /* Pods-phoneTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232D5B4D1FFFFEC3F5CA3F8B9287C91C /* Build configuration list for PBXNativeTarget "Pods-phoneTest" */;
+			buildPhases = (
+				9EA1A8278BEFE4D4133DE44D02753141 /* Headers */,
+				AA50B756B8D2E69810B5F83F99E993E9 /* Sources */,
+				3B9D5DA99981E30F28A59B7EDFA04CBA /* Frameworks */,
+				E3C6B49A12E71FAA896E1D3D55217441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEDBA3A0DCAA48B0D5FC2862E1B23DC /* PBXTargetDependency */,
+			);
+			name = "Pods-phoneTest";
+			productName = Pods_phoneTest;
+			productReference = D70D28B73F9DEED1249B8F6C083E4846 /* Pods-phoneTest */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5B15CA3A8E1F8D92BCC301E6F561F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7CF24A4EB196EDB76280147435B322 /* Pods-phoneTest */,
+				D4DEFF2F2F2299AA40916F7496F43C94 /* TanyaPhonevalidation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815E057FFED7C98596777B3C6450FE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C6B49A12E71FAA896E1D3D55217441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA50B756B8D2E69810B5F83F99E993E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1665DE6199E78490C174731AAB8EFCC8 /* Pods-phoneTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2080E0BA0A6011B77F69E1F412A3EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E5B8038BA26A8565FFF9133DA2AF93 /* phoneValidator.swift in Sources */,
+				BB12A3DDB25036CEBC89BE940F0DE54C /* TanyaPhonevalidation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DEDBA3A0DCAA48B0D5FC2862E1B23DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TanyaPhonevalidation;
+			target = D4DEFF2F2F2299AA40916F7496F43C94 /* TanyaPhonevalidation */;
+			targetProxy = C1D5CBC3197025ED7048B6661A0927C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACCE0EA0825079A36D0BF1267EFFE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBEBFCEDC491047814210AA87553B43 /* TanyaPhonevalidation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation.modulemap";
+				PRODUCT_MODULE_NAME = TanyaPhonevalidation;
+				PRODUCT_NAME = TanyaPhonevalidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59E8734DA70715406493CA912F854277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A49448602EC1B17D12ADB02D6EE73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		839A66F381103D6B945CA2A546ABB8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709F4F23727243D0A64EAE7D6384CD59 /* Pods-phoneTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-phoneTest/Pods-phoneTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-phoneTest/Pods-phoneTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E45B838BBBC8D65AEEC99402BAF675E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C22C9DEE1D3D4B60B69FC62860CEC9 /* Pods-phoneTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-phoneTest/Pods-phoneTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-phoneTest/Pods-phoneTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B1377C44D27B52A2AB5C2B19B61D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355F8D0C07996E9C2AB22A9FD43A7A30 /* TanyaPhonevalidation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TanyaPhonevalidation/TanyaPhonevalidation.modulemap";
+				PRODUCT_MODULE_NAME = TanyaPhonevalidation;
+				PRODUCT_NAME = TanyaPhonevalidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232D5B4D1FFFFEC3F5CA3F8B9287C91C /* Build configuration list for PBXNativeTarget "Pods-phoneTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A66F381103D6B945CA2A546ABB8FA /* Debug */,
+				E45B838BBBC8D65AEEC99402BAF675E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4158F064B7E98972AE680F241EB4A289 /* Build configuration list for PBXNativeTarget "TanyaPhonevalidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B1377C44D27B52A2AB5C2B19B61D3B /* Debug */,
+				0ACCE0EA0825079A36D0BF1267EFFE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8734DA70715406493CA912F854277 /* Debug */,
+				5A49448602EC1B17D12ADB02D6EE73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

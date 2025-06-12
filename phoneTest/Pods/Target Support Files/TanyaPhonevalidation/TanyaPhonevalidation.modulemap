@@ -1,0 +1,6 @@
+framework module TanyaPhonevalidation {
+  umbrella header "TanyaPhonevalidation-umbrella.h"
+
+  export *
+  module * { export * }
+}
